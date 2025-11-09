@@ -51,15 +51,15 @@ const Company = () => {
   const mockApplicants = [
     {
       id: 1,
-      name: 'John Smith',
-      email: 'john.smith@email.com',
-      phone: '+1 (555) 123-4567',
+      name: '',
+      email: '',
+      phone: '',
       education: [
         {
           degree: 'Bachelor of Computer Science',
           institution: 'University of Technology',
           gpa: '3.8/4.0',
-          year: '2023'
+          year: '2025'
         }
       ],
       experience: [
@@ -78,20 +78,20 @@ const Company = () => {
       skills: ['JavaScript', 'React', 'Node.js', 'Python', 'AWS'],
       matchScore: 95,
       status: 'pending',
-      appliedDate: '2024-01-15',
+      appliedDate: '2025-01-15',
       jobId: 1
     },
     {
       id: 2,
-      name: 'Sarah Johnson',
-      email: 'sarah.j@email.com',
-      phone: '+1 (555) 987-6543',
+      name: '',
+      email: '',
+      phone: '',
       education: [
         {
           degree: 'Master of Data Science',
           institution: 'Science University',
           gpa: '3.9/4.0',
-          year: '2024'
+          year: '2025'
         }
       ],
       experience: [
@@ -110,14 +110,14 @@ const Company = () => {
       skills: ['Python', 'SQL', 'Tableau', 'Machine Learning', 'Statistics'],
       matchScore: 88,
       status: 'pending',
-      appliedDate: '2024-01-16',
+      appliedDate: '2025-01-16',
       jobId: 2
     },
     {
       id: 3,
-      name: 'Michael Chen',
-      email: 'michael.chen@email.com',
-      phone: '+1 (555) 456-7890',
+      name: '',
+      email: '',
+      phone: '',
       education: [
         {
           degree: 'Bachelor of Electrical Engineering',
@@ -142,7 +142,7 @@ const Company = () => {
       skills: ['Circuit Design', 'AutoCAD', 'Project Management', 'MATLAB'],
       matchScore: 76,
       status: 'pending',
-      appliedDate: '2024-01-14',
+      appliedDate: '2025-01-14',
       jobId: 1
     }
   ];
@@ -186,7 +186,7 @@ const Company = () => {
     setNotifications([
       { 
         id: 1, 
-        message: 'New qualified applicant: John Smith', 
+        message: 'New qualified applicant: Mpho ', 
         type: 'applicant', 
         read: false,
         timestamp: new Date().toLocaleTimeString()
